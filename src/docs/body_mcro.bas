@@ -2,6 +2,12 @@ Sub Macro1()
 '
 ' Macro1 Macro
 '
+'Creates macro that follows IEEE standards for a two column document
+'Times New Roman Font
+'3.5" columns with 0.24" space between them
+'Spacing set to 0, 0, 0, 6
+'Margins set to 0.75", 1", 0.63", 0.63"
+'Text alignment justified
 '
     Selection.WholeStory
     With ActiveDocument.Styles(wdStyleNormal).Font
